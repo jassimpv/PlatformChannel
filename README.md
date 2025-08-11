@@ -86,34 +86,6 @@ Platform Channels enable bidirectional communication between Flutter and platfor
 4. **Basic Message Channels**: For simple data exchange
 5. **Conditional Platform Implementation**: Using `kIsWeb` and platform detection
 
-## 🧪 Testing
-
-### Running Tests
-
-```bash
-# Run Flutter tests
-flutter test
-
-# Run integration tests
-flutter drive --target=test_driver/app.dart
-```
-
-### Manual Testing
-
-1. **Mobile Testing**:
-
-   - Launch the app on both Android and iOS devices
-   - Test platform version retrieval
-   - Test battery level functionality
-   - Verify error handling with airplane mode
-
-2. **Web Testing**:
-   - Open the app in different browsers (Chrome, Firefox, Safari, Edge)
-   - Test platform detection and version retrieval
-   - Test battery API (if supported by browser)
-   - Verify graceful fallback when APIs are not available
-   - Test responsive design on different screen sizes
-
 ## 🚨 Troubleshooting
 
 ### Common Issues
@@ -241,5 +213,3 @@ If you have any questions or run into issues, please:
 ---
 
 **Made with ❤️ by [jassimpv](https://github.com/jassimpv)**
-
-# PlatformChannel
